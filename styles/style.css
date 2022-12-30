@@ -1,0 +1,106 @@
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: grid;
+  display: grid;
+  grid-template-areas:
+    "logo nav";
+}
+
+.logo {
+  grid-area: logo;
+
+  /* background-color: red; */
+  display: inline-block;
+  font-size: 27px;
+  padding: 16px 12px;
+}
+
+.nav {
+  grid-area: nav;
+
+  /* background-color: blue; */
+  display: inline-block;
+  text-align: right;
+  padding-top: 35px;
+}
+
+.btn_link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  border: 1px solid blue;
+
+  padding: 8px 10px;
+  margin: 0 10px 0 24px;
+
+}
+
+.nav_link {
+
+  font-weight: 500;
+  font-size: 21px;
+  text-decoration: none;
+  color: black;
+  margin-left: 24px;
+}
+
+.conteiner {
+  width: 1200px;
+  /* background-color: blue;
+  height: 10px; */
+  margin: 0 auto;
+}
+
+.phone_block {
+  margin-top: 150px;
+
+  display: grid;
+  grid-template-areas:
+    "d ph";
+}
+
+.description {
+
+  margin-top: 120px;
+  grid-area: d;
+
+}
+
+.phone_image {
+  grid-area: ph;
+}
+
+.description_header {
+  font-size: 47px;
+  font-weight: 700;
+}
+
+.description_paragrph {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.description_btns {
+  margin-top: 24px;
+}
+
+.description_btn_left {
+  border: 1px solid blue;
+  padding: 10px 16px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.description_btn_right {
+  border: 1px solid #575757;
+  padding: 10px 16px;
+  background-color: white;
+  color: #575757;
+  text-decoration: none;
+}
