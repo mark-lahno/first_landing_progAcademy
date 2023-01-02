@@ -2,6 +2,11 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header {
   display: grid;
   display: grid;
@@ -200,7 +205,146 @@ html {
   font-size: 27px;
   font-weight: 600;
   position: absolute;
-  left: 945px;
-  top: 965px;
+  left: 980px;
+  top: 970px;
+}
 
+.authors_inner_left {
+  display: grid;
+  grid-template-areas:
+    "img info";
+}
+
+.authors_inner_left_img {
+  grid-area: img;
+
+
+}
+
+.authors_inner_left_info {
+  grid-area: info;
+  width: 640px;
+  margin-left: 46px;
+}
+
+.authors_inner_left_info_header {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.authors_inner_left_info_subheader {
+  font-size: 21px;
+  font-weight: 500;
+  color: #575757;
+}
+
+.authors_inner_left_info_paragraph {
+  margin-top: 12px;
+}
+
+.authors_inner_left_info_logos {
+  margin-top: 25px;
+
+}
+
+.authors_inner_left_info_logos_in {
+  display: inline;
+}
+
+.authors_inner_left_info_logos_insta {
+  display: inline;
+  margin-left: 19px;
+}
+
+.authors_inner_left_info_logos_facebook {
+  display: inline;
+  margin-left: 19px;
+}
+
+/* blue_block ---------------------------------------------------------------------------------------------------------------------------*/
+
+.blue_block {
+  margin-top: 150px;
+  background-color: #0062FF;
+  color: white;
+}
+
+.blue_block_description {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blue_block_description_header {
+  font-size: 27px;
+  font-weight: 600;
+  padding-top: 100px;
+}
+
+.blue_block_description_paragraph {
+  margin-top: 20px;
+}
+
+.block-holder-part-img {
+  grid-area: img;
+}
+
+.block-holder-part-description {
+  grid-area: desc;
+
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.block-holder {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-areas:
+    "first second"
+    "third forth";
+}
+
+.block_first {
+  grid-area: first;
+}
+
+.block_second {
+  grid-area: second;
+}
+
+.block_third {
+  grid-area: third;
+}
+
+.block_forth {
+  grid-area: forth;
+}
+
+.block-holder-part {
+  margin: 15px 15px 15px 0;
+
+  display: grid;
+  grid-template-areas:
+    "img desc";
+}
+
+.block-holder-part-header {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.block-holder-part-paragraph {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.blue_block_btn {
+  display: inline-block;
+  color: #0062FF;
+  margin: 50px 700px;
+  text-align: center;
+  border: 1px solid #0062FF;
+  padding: 10px;
+  background-color: #fff;
 }
