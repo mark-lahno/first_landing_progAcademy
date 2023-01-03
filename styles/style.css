@@ -1,5 +1,6 @@
 html {
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -347,4 +348,183 @@ a {
   border: 1px solid #0062FF;
   padding: 10px;
   background-color: #fff;
+
+}
+
+
+/* check-demo ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.check-demo-description {
+  text-align: center;
+  margin: 63px auto;
+}
+
+.check-demo-description-header {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.check-demo-description-paragraph {
+  margin-top: 12px;
+}
+
+
+.check-demo-holder {
+  display: grid;
+  grid-template-areas:
+    "left right";
+  grid-template-columns: 7fr 5fr;
+}
+
+.check-demo-holder-left {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.check-demo-holder-right {
+  grid-area: right;
+  margin-left: 40px;
+}
+
+.check-demo-holder-topic-header {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.check-demo-holder-topic-paragraph {
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* yellow-block =======================================================================================================================================================================*/
+
+.yellow-block {
+  background-color: #FFBE0B;
+  margin-top: 130px;
+  padding: 67px 0;
+}
+
+.yellow-block-description {
+  text-align: center;
+  /* padding: 70px 0 42px 0; */
+  margin-bottom: 42px;
+}
+
+.yellow-block-description-header {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.yellow-block-description-paragraph {
+  margin-top: 12px;
+}
+
+.whie-block {
+  background-color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 16px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.white-block-header-and-img {
+  display: flex;
+}
+
+.white-block-header {
+  font-size: 27px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.white-block-subheader {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.white-block-paragraph {
+  margin-top: 12px;
+}
+
+.white-block-blue-cloud {
+  position: relative;
+  top: 25px;
+  margin-right: 20px;
+}
+
+
+/* last_block===================================================================================================================================================================================== */
+.start-withUs {
+  padding: 90px 0;
+}
+
+
+.start-withUs-description {
+  text-align: center;
+}
+
+.start-withUs-description-header {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.start-withUs-description-paragraph {
+  margin-top: 12px;
+}
+
+.product-title {
+  display: flex;
+  margin: 80px 0;
+}
+
+.product-title-description-header {
+  color: #0062FF;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.product-title-description-paragraph {
+  margin-top: 16px;
+}
+
+.product-title-description-btn {
+  background-color: #0062FF;
+  padding: 10px;
+  margin-top: 16px;
+  max-width: 90px;
+  color: #fff;
+}
+
+.form-block-header {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-block-imput {
+  padding: 25px;
+  border-color: #3A86FF;
+  width: 510px;
+  color: #0062FF;
+  margin-top: 25px;
+}
+
+.form-btn {
+  display: block;
+  margin-top: 14px;
+  background-color: #0062FF;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 565px;
 }
